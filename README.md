@@ -8,4 +8,5 @@ This repository contains the final project for the module "AI for Visual Percept
 ## CNN model
 ## Results
 ## Instructions
+*fare il training dentro ad un file ipynb, prediction e modelli invece in file py così che possano essere eseguiti da riga di comando.*
 ## References
