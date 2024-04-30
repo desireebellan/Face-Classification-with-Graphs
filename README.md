@@ -19,10 +19,12 @@ A fundamental step of the project was to construct the dataset because: (i) bein
 
 The methods employed to increase the dataset’s size can be divided into three categories: (i) data augmentation via image transformation, (ii) image generation, and (iii) face segmentation and landmarks attention. 
 The datasets created with the different methods are store the folder [dataset](datasets). 
-### Generative Adversarial Network
-### Facial feature extraction
-### Gestalt algorithm
-### CNN model
+### Model
+The models used primarily follow two structures: the first one is based on VGG-16 and consists of a fine-tuned model of VGG pre-trained using the weights of VGGFace. The second one is a custom-based model based on graph CNNs.
+
+![nn model](images/model.png)
+
+Structure of the graph-based neural network proposed. Each 32x32 feature image is passed through 5 convolutional layers, each one of them followed by a ReLU. The features extracted create the 68 nodes of the graph that is fed to two consecutive GCN, each followed by a ReLU. The 68x2 output is converted into a binary classification output through a single linear layer.
 ### Results
 ### References
 
