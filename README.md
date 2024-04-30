@@ -32,7 +32,6 @@ In the table below can be found the results in terms of f1-score and loss of the
 The application of the data augmentation techniques has been generally beneficial, both in terms of random transformations and generative approaches application.
 
 ![results table](images/table.png)
-### References
 
 ## Installation
 ## Usage
