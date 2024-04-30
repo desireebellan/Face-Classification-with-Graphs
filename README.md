@@ -25,7 +25,13 @@ The models used primarily follow two structures: the first one is based on VGG-1
 ![nn model](images/model.png)
 
 Structure of the graph-based neural network proposed. Each 32x32 feature image is passed through 5 convolutional layers, each one of them followed by a ReLU. The features extracted create the 68 nodes of the graph that is fed to two consecutive GCN, each followed by a ReLU. The 68x2 output is converted into a binary classification output through a single linear layer.
+
+The networks implementation can be found in 
 ### Results
+In the table below can be found the results in terms of f1-score and loss of the different combinations of models and augmentations, for the whole face and the segmentation defined. The results show that the graph-based not only matches the VGG ones but also goes beyond them while keeping (i) a much lower number of parameters and consequently (ii) a faster training time (even though it needs a higher number of epochs to converge).
+The application of the data augmentation techniques has been generally beneficial, both in terms of random transformations and generative approaches application.
+
+![results table](images/table.png)
 ### References
 
 ## Installation
