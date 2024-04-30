@@ -18,7 +18,7 @@ One of the numerous applications of modern face recognition techniques is the di
 A fundamental step of the project was to construct the dataset because: (i) being FXS a rare disease, there are not many publicly available frontal images of children online; (ii) dealing with children adds difficulty in acquiring public images due to specific privacy laws for minors; (iii) often, the available photos are low-resolution, nonfrontal, or contain elements obstructing the face. 
 
 The methods employed to increase the dataset’s size can be divided into three categories: (i) data augmentation via image transformation, (ii) image generation, and (iii) face segmentation and landmarks attention. 
-The datasets created with the different methods are store the folder [dataset](dataset). 
+The datasets created with the different methods are store the folder [dataset](datasets). 
 ### Generative Adversarial Network
 ### Facial feature extraction
 ### Gestalt algorithm
